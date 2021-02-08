@@ -1,0 +1,39 @@
+body{
+    background-image: url(volcanic-lightning.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.wrapper{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#factBox{
+    width: 600px;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    font-size: 36px;
+    padding: 10px;
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+}
+#btnFetch{
+    width: 600px;
+    padding: 10px;
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+    color: red;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 24px;
+    margin-top: 10px;
+}
+h1{
+    font-family: 'Permanent Marker', cursive; 
+    color: white;
+    font-size: 48px;
+    text-shadow: 5px 5px red;
+    
+}
